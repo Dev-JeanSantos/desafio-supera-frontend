@@ -5,6 +5,26 @@
 }
 
 .home-content{
-    padding-top: 155px;
-    padding-bottom: 155px;;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.content-base{
+    display: list-item;
+    align-items: baseline;
+
+}
+
+.content-card1{
+    height: 100px;
+    border: solid 3px red;
+    margin-bottom: 20px;
+}
+
+
+
+
+.content-card2{
+    height: 200px;
 }
