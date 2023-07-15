@@ -1,11 +1,16 @@
 import React from 'react';
 import "./styles.scss";
 import Card from '../Card';
+import { Transferencia } from '../../types/Transferencia';
 
-const List = () => {
+type Props = {
+    transferencia: Transferencia;
+}
+
+const List = ({transferencia}:Props) => {
     return (
         <div>
-            <Card />
+            <Card transferencia={transferencia}/>
         </div>
     )
 }
