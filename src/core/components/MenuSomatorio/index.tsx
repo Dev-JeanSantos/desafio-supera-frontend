@@ -8,7 +8,7 @@ const MenuSomatorio = () => {
                 <div className='col-6 text-center card-linha'>
                     <h4 className='text-linha-menu-somatorio'>Saldo Total: </h4>
                 </div>
-                <div className='col-6 text-center card-linha'>
+                <div className='col-6 text-center'>
                     <h4 className='text-linha-menu-somatorio'>Saldo no Período: </h4>
                 </div>
             </div>

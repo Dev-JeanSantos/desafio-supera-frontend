@@ -21,7 +21,7 @@ const Card = ({transferencia}: Props) => {
                     <h4 className='text-linha'>{transferencia.tipo}</h4>
                 </div>
                 <div className='col-2 text-center '>
-                    <h4 className='text-linha'>{transferencia.nomeOperadorTransacao}</h4>
+                    <h4 className='text-linha-operador'>{transferencia.nomeOperadorTransacao}</h4>
                 </div>
             </div>
         </div>

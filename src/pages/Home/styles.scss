@@ -11,12 +11,13 @@
 }
 
 .content-base{
-    display: list-item;
+    display: block;
     align-items: baseline;
 
 }
 
 .content-card1{
+    display: flex;
     height: 100px;
     margin-bottom: 20px;
 }
@@ -24,6 +25,19 @@
     height: 300px;
 }
 
-.form-consulta{
-    display: inline;
+.list-1{
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.input-form{
+    width: 300px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.buton-form{
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 300px;
 }
